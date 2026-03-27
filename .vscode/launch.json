@@ -17,6 +17,13 @@
             "request": "launch",
             "program": "${workspaceFolder}/sample/getting_started/agent.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Run: a2a_bedrock/a2a_client_server.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/sample/a2a_bedrock/a2a_client_server.py",
+            "console": "integratedTerminal"
         }
     ]
 }
