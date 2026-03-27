@@ -21,10 +21,10 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Run: a2a_bedrock/a2a_client_server.py",
+            "name": "Run: a2a_bedrock/a2a_client.py",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/sample/a2a_bedrock/a2a_client_server.py",
+            "program": "${workspaceFolder}/sample/a2a_bedrock/a2a_client.py",
             "python": "/home/circleci/.pyenv/shims/python",
             "console": "integratedTerminal"
         },
