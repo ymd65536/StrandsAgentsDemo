@@ -1,0 +1,22 @@
+{
+    "name": "Strands Agents Container",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "sh .devcontainer/StrandsAgents/postCreateCommand.sh",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli":{}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                "AmazonWebServices.amazon-q-vscode",
+                "ms-azuretools.vscode-containers",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.debugpy"
+            ]
+        }
+    }
+}
