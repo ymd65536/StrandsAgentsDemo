@@ -8,9 +8,6 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "dbaeumer.vscode-eslint",
-                "VisualStudioExptTeam.vscodeintellicode",
-                "DavidAnson.vscode-markdownlint",
                 "AmazonWebServices.amazon-q-vscode",
                 "ms-azuretools.vscode-containers",
                 "ms-python.python"
