@@ -9,6 +9,7 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
+            "python": "/home/circleci/.pyenv/shims/python",
             "console": "integratedTerminal"
         },
         {
@@ -16,6 +17,7 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/sample/getting_started/agent.py",
+            "python": "/home/circleci/.pyenv/shims/python",
             "console": "integratedTerminal"
         },
         {
@@ -23,6 +25,7 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/sample/a2a_bedrock/a2a_client_server.py",
+            "python": "/home/circleci/.pyenv/shims/python",
             "console": "integratedTerminal"
         }
     ]

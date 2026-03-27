@@ -67,6 +67,14 @@ echo "GOOGLE_CLOUD_LOCATION=us-central1" >> ./multi_tool_agent/.env
 echo "GOOGLE_CLOUD_PROJECT=$GOOGLE_CLOUD_PROJECT" >> ./multi_tool_agent/.env
 ```
 
+## トラブルシューティング
+
+503エラーが発生する場合は、agent cardのURLが正しいか、サーバーが起動しているかを確認してください。
+
+```text
+Error: HTTP Error 503: Network communication error fetching agent card from http://localhost:9000/.well-known/agent-card.json: All connection attempts failed
+```
+
 ## reference
 
 - [strands-agents/tools](https://github.com/strands-agents/tools)
