@@ -12,7 +12,6 @@
             },
             "extensions": [
                 "AmazonWebServices.amazon-q-vscode",
-                "ms-azuretools.vscode-containers",
                 "ms-python.python",
                 "ms-python.vscode-pylance",
                 "ms-python.debugpy"
